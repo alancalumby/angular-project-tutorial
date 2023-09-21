@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "public",
+    "public": "public/angular-tutorial",
     "ignore": [
       "firebase.json",
       "**/.*",
