@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
-
 import { products } from '../products';
+import { Constants } from '../config/constants'; 
+
 
 @Component({
   selector: 'app-product-list',
@@ -9,6 +10,7 @@ import { products } from '../products';
 })
 export class ProductListComponent {
   products = [...products];
+  API_EXCHANGE_RATE = Constants.API_EXCHANGE_RATE;
 
   share() {
     window.alert('The product has been shared!');
